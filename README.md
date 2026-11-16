@@ -70,4 +70,8 @@ Annualized inflation rate: 3.03%
 ------------------------------------
 ```
 ## Conclusion
+<<<<<<< HEAD
 This project shows how Python can be used to work with economic data and perform financial calculations. By using packages such as Pandas, NumPy, and Matplotlib, the code organizes historical CPI data, visualizes inflation trends, and calculates how the purchasing power of money changes over time. 
+=======
+This project shows how Python can be used to work with economic data and perform financial calculations. By using packages such as Pandas, NumPy, and Matplotlib, the code organizes historical CPI data, visualizes inflation trends, and calculates how the purchasing power of money changes over time. 
+>>>>>>> ab6c1c709e25c154578a77fb6c23e04232e9336d
