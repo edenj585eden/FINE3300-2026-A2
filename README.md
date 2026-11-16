@@ -28,16 +28,15 @@ The project uses these three Python libraries to help generate the results:
 7. Follow the prompts in the terminal to enter an original price and the starting and ending dates.
 
 ***Keep in mind***:
+- The pop-up image of the graph that appears after running the code **must** be closed before you are able to see the calculation section.
 - Dates must be entered using the YYYY-MM format. For example, January 2010 would be entered as `2010-01`.
 - The selected dates must also exist in the CPI dataset
 - The ending date must be later than the starting date.
 
 ## Graph Information
-The code generates a graph showing Canada's monthly Consumer Price Index and annual inflation rate. The CPI is displayed using the left vertical axis, while the annual inflation rate is displayed using the right vertical axis. The annual inflation rate is calculated by comparing each month's CPI with the CPI from the same month one year earlier.
+The code generates a graph showing Canada's monthly Consumer Price Index and annual inflation rate. The CPI is displayed using the left vertical axis, while the annual inflation rate is displayed using the right vertical axis. The annual inflation rate is calculated by comparing each month's CPI with the CPI from the same month one year earlier. The graph is saved as `cpi_graph.png` when the program is run.
 
 The graph helps illustrate how the general price level and annual inflation rate have changed over time. An increase in the CPI tells us that the overall price level has increased when compared with the CPI base period. The annual inflation rate shows how quickly prices have changed compared with the same month in the previous year.
-
-The graph is saved as `cpi_graph.png` when the program is run.
 
 ## Inflation Calculation
 The code uses these formulas to calculate the results:
