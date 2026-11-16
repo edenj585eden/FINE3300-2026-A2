@@ -38,6 +38,12 @@ The code generates a graph showing Canada's monthly Consumer Price Index and ann
 
 The graph helps illustrate how the general price level and annual inflation rate have changed over time. An increase in the CPI tells us that the overall price level has increased when compared with the CPI base period. The annual inflation rate shows how quickly prices have changed compared with the same month in the previous year.
 
+![Graph showing how price levels & annual inflation rate change over time](cpi_graph.png)
+
+The Consumer Price Index (CPI) shows that the cost of living in Canada has steadily climbed since 1914. Prices have grown much faster over the decades, moving from single digits up to over 160.
+
+The graph also shows some memorable historical moments. Right after World War I, around 1920, prices spiked heavily before crashing down during the Great Depression in the 1930s. Then during the 1970s and 1980s, inflation bounced up and down with many high peaks. More recently, we can also see another sharp jump in inflation after the pandemic around 2021 and 2022.
+
 ## Inflation Calculation
 The code uses these formulas to calculate the results:
 - **Equivalent Price**: Equivalent Price = Original Price × (Ending CPI / Starting CPI)
@@ -45,7 +51,7 @@ The code uses these formulas to calculate the results:
 - **Percentage Change**: Percentage Change = [(Ending CPI / Starting CPI) − 1] × 100
 - **Annualized Inflation Rate**: Annualized Rate = [(Ending CPI / Starting CPI)^(12 / Number of Months) − 1] × 100
 
-The code also calculates the time difference between the two selected dates in years by subtracting the two time periods with eachother.
+The code also calculates the time difference between the two selected dates in years by subtracting the two time periods from each other.
 
 ### Sample output
 Below shows an example of the results displayed by the program. The actual values depend on the price and dates entered by the user. In this case, the user entered $100 as the original price, September 1914 as the starting date, and September 2026 as the end date. 
@@ -70,8 +76,5 @@ Annualized inflation rate: 3.03%
 ------------------------------------
 ```
 ## Conclusion
-<<<<<<< HEAD
 This project shows how Python can be used to work with economic data and perform financial calculations. By using packages such as Pandas, NumPy, and Matplotlib, the code organizes historical CPI data, visualizes inflation trends, and calculates how the purchasing power of money changes over time. 
-=======
-This project shows how Python can be used to work with economic data and perform financial calculations. By using packages such as Pandas, NumPy, and Matplotlib, the code organizes historical CPI data, visualizes inflation trends, and calculates how the purchasing power of money changes over time. 
->>>>>>> ab6c1c709e25c154578a77fb6c23e04232e9336d
+
